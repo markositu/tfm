@@ -7,7 +7,8 @@ import holidays
 
 
 class DataStorage:
-    root = "data"
+    def __init__(self, root):
+        self.root = root
 
     data_cols = [
         "target",
